@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/mainActivity_BackgroundIV"
-        android:src="@drawable/bgMain"
+        android:src="@drawable/bgmain1"
         android:scaleType="centerCrop"
         android:alpha=".6"
         />
@@ -22,7 +22,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/mainActivity_LogoIV"
-        android:src="@drawable/mainLogo"
+        android:src="@drawable/mainlogo1"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="150dp"
@@ -47,7 +47,7 @@
         android:layout_centerInParent="true"
         android:layout_below="@id/mainActivity_TagLineTV"
         android:background="@drawable/round_btn_bg"
-        android:layout_marginTop=""
+        android:layout_marginTop="8dp"
         />
 
 
