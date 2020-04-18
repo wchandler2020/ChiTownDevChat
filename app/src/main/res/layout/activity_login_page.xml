@@ -4,13 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/loginPage_RL"
     tools:context=".Activities.LoginPage">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Login"
-    android:textColor="@color/colorBlack"
-    android:gravity="center"
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/loginPage_loginIV"
+        android:src="@drawable/mainlogo1"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginPage_emailET"
+        android:maxLength="20"
+        android:layout_marginTop="10dp"
+        android:textColor="#880A0A"
+        android:textColorHint="#880A0A"
+        android:textSize="14sp"
+        android:hint="@string/email_et_hint"
+        android:layout_below="@id/loginPage_loginIV"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center|left"
+        android:padding="2dp"
+        android:background="@drawable/login_et_bg"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+        android:drawablePadding="3dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginPage_passwordET"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="#880A0A"
+        android:textColorHint="#880A0A"
+        android:textSize="14sp"
+        android:hint="@string/password_et_hint"
+        android:layout_below="@id/loginPage_emailET"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center|left"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/login_et_bg"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/password_et_left_drawable"
+        />
+
+    <Button
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:id="@+id/loginPage_loginBtn"
+        android:background="@drawable/round_btn_bg"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/loginPage_passwordET"
+        android:text="@string/login_string"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginPage_dontHaveAccountTagLine"
+        android:layout_below="@+id/loginPage_loginBtn"
+        android:layout_centerInParent="true"
+        android:text="@string/no_account_tag_line"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
     />
+    <Button
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:id="@+id/loginPage_moveToRegisterPageBtn"
+        android:background="@drawable/round_btn_bg"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/loginPage_dontHaveAccountTagLine"
+        android:text="@string/move_to_register_btn"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        />
+
 </RelativeLayout>

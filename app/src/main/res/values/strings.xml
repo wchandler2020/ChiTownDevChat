@@ -2,4 +2,11 @@
     <string name="app_name">ChiTownDevChat</string>
     <string name="get_started_tag_line">Connect | Collaborate | Create</string>
     <string name="get_started_btn">Get Started</string>
+    <string name="email_et_hint">Enter Your Email</string>
+    <string name="password_et_hint">Enter Your Password</string>
+    <string name="login_string">Login</string>
+    <string name="no_account_tag_line">No Account? Please Register below.</string>
+    <string name="move_to_register_btn">Register</string>
+
+
 </resources>
