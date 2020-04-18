@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChiTownDevChat</string>
+    <string name="get_started_tag_line">Connect | Collaborate | Create</string>
+    <string name="get_started_btn">Get Started</string>
+</resources>
