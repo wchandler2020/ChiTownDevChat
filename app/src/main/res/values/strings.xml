@@ -7,6 +7,15 @@
     <string name="login_string">Login</string>
     <string name="no_account_tag_line">No Account? Please Register below.</string>
     <string name="move_to_register_btn">Register</string>
+    <string name="user_name">Enter Your Name</string>
+    <string name="user_dob">Enter Your DOB</string>
+    <string name="enter_password">Create A Password(minimum 6 characters)</string>
+    <string name="re_enter_password">Confirm Your Password</string>
+    <string name="developer_radio">Developer</string>
+    <string name="designer_radio">Designer</string>
+    <string name="tester_radio">Quality Assurance</string>
+
+
 
 
 </resources>

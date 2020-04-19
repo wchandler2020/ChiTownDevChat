@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RegisterPage_RL"
+    android:background="@color/registerPageBg"
+    tools:context=".Activities.RegisterPage">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/RegisterPage_userProfileIV"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:padding="2dp"
+        android:src="@drawable/userdefault"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterPage_userNameET"
+        android:layout_below="@id/RegisterPage_userProfileIV"
+        android:background="@drawable/login_et_bg"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+        android:drawablePadding="8dp"
+        android:gravity="center|left"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/user_name"
+        android:textColorHint="@color/lightGrayColor"
+        android:padding="2dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:maxLength="40"
+
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterPage_userEmailET"
+        android:layout_below="@id/RegisterPage_userNameET"
+        android:background="@drawable/login_et_bg"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+        android:drawablePadding="8dp"
+        android:gravity="center|left"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/email_et_hint"
+        android:textColorHint="@color/lightGrayColor"
+        android:padding="2dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:maxLength="40"
+
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/RegisterPage_userDOBTV"
+        android:hint="@string/user_dob"
+        android:layout_below="@id/RegisterPage_userEmailET"
+        android:background="@drawable/login_et_bg"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+        android:gravity="center|left"
+        android:text="@string/user_dob"
+        android:drawablePadding="8dp"
+        android:textColor="@color/highlightColor"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterPage_userPassword"
+        android:layout_below="@+id/RegisterPage_userDOBTV"
+        android:background="@drawable/login_et_bg"
+        android:hint="@string/enter_password"
+        android:textColorHint="@color/lightGrayColor"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+
+        />    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterPage_userConfirmPassword"
+        android:layout_below="@+id/RegisterPage_userPassword"
+        android:background="@drawable/login_et_bg"
+        android:hint="@string/re_enter_password"
+        android:textColorHint="@color/lightGrayColor"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/login_et_left_drawable"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegisterPage_RadioGroup"
+        android:orientation="horizontal"
+        android:layout_below="@+id/RegisterPage_userConfirmPassword"
+        android:layout_marginTop="3dp"
+        android:layout_centerInParent="true"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/developerRadio"
+            android:text="@string/developer_radio"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/designerRadio"
+            android:text="@string/designer_radio"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testerRadio"
+            android:text="@string/tester_radio"
+            android:checked="true"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:id="@+id/RegisterPage_RegisterBtn"
+        android:layout_below="@id/RegisterPage_RadioGroup"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_btn_bg"
+        android:text="@string/move_to_register_btn"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        />
+
+</RelativeLayout>
