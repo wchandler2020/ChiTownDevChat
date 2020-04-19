@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308706349748",
+    "firebase_url": "https://chitowndevchat.firebaseio.com",
+    "project_id": "chitowndevchat",
+    "storage_bucket": "chitowndevchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308706349748:android:33a1c0ba645220fb7fbde1",
+        "android_client_info": {
+          "package_name": "com.example.chitowndevchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308706349748-uis323sk4vbq225g3k6kj5i9fi6lkpcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2-esbYx5rn5GeK3T_ziSlNpt6PKzqkww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308706349748-uis323sk4vbq225g3k6kj5i9fi6lkpcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
